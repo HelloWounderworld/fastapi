@@ -52,7 +52,7 @@ Now, you have an isolated virtual environment to start to develop your first fas
 
 Just see references that I used to study about.
 
-- [References][#references]
+- [References](#references)
 
 Tip: If you want to get out of the virtual environment just type
 
