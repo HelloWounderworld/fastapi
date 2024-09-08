@@ -60,6 +60,11 @@ Tip: If you want to get out of the virtual environment just type
 
 ## References
 
+1. [FastAPI Home Page][1]
+2. [Fast API documentation to introduce to the concept step by step][2]
+3. [Fast API Github to instal library and run in a server][3]
+4. [Fast API CLI Documentation][4]
+
 [1]: https://fastapi.tiangolo.com/
 
 [2]: https://fastapi.tiangolo.com/learn/
