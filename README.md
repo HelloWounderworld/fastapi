@@ -34,6 +34,20 @@ First, we have to create a Python environment.
 
         pip install "fastapi[standard]"
 
+    If you have a requirements.txt, just copy it inside of virtual environment directory and run following command
+
+        pip install -r requirements.txt
+
+6. Freeze packages versions on the requirements.txt file:
+
+    After installed packages that you need to your project is a good practice to freeze its in a requirements.txt files.
+
+    To do it, you have, in first, digit
+
+        pip freeze
+
+    After this you have to create a requirements.file and to make Ctrl+C and Ctrl+V about this file.
+
 Now, you have an isolated virtual environment to start to develop your first fast api.
 
 Just see references that I use to study about.
