@@ -69,8 +69,8 @@ Tip: If you want to get out of the virtual environment just type
 
 [1]: https://fastapi.tiangolo.com/
 
-[2]: https://fastapi.tiangolo.com/learn/
+[2]: https://fastapi.tiangolo.com/python-types/#type-hints-in-fastapi
 
-[3]: https://github.com/fastapi/fastapi
+[3]: https://github.com/fastapi/fastapi?tab=readme-ov-file#example-upgrade
 
 [4]: https://fastapi.tiangolo.com/fastapi-cli/
