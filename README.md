@@ -50,7 +50,7 @@ First, we have to create a Python environment.
 
 Now, you have an isolated virtual environment to start to develop your first fast api.
 
-Just see references that I use to study about.
+Just see references that I used to study about [references][#references]
 
 Tip: If you want to get out of the virtual environment just type
 
