@@ -11,7 +11,7 @@ You can access following ports:
 
 - Serving at: http://127.0.0.1:8000
 
-- API docs: http://127.0.0.1:8000/docs
+- API docs: http://127.0.0.1:8000/docs (or http://127.0.0.1:8000/redoc)
 
 The advantage to access "http://127.0.0.1:8000/docs" it will be unnecessary to install Postman to test each request type to check if your program is working.
 
