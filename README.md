@@ -66,6 +66,7 @@ Tip: If you want to get out of the virtual environment just type
 2. [Fast API documentation to introduce to the concept step by step][2]
 3. [Fast API Github to instal library and run in a server][3]
 4. [Fast API CLI Documentation][4]
+5. [Good practice using Pydantic with Fast API][5]
 
 [1]: https://fastapi.tiangolo.com/
 
@@ -74,3 +75,5 @@ Tip: If you want to get out of the virtual environment just type
 [3]: https://github.com/fastapi/fastapi?tab=readme-ov-file#example-upgrade
 
 [4]: https://fastapi.tiangolo.com/fastapi-cli/
+
+[5]: https://docs.pydantic.dev/latest/

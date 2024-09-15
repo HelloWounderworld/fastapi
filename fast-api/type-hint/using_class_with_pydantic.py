@@ -4,7 +4,8 @@
 
 from datetime import datetime
 
-from pydantic import BaseModel
+# from pydantic import BaseModel
+from pydantic import BaseModel, PositiveInt, ValidationError
 
 
 class User(BaseModel):
@@ -19,7 +20,13 @@ external_data = {
     "signup_ts": "2017-06-01 12:22",
     "friends": [1, "2", b"3"],
 }
-user = User(**external_data)
+# user = User(**external_data)
+
+try:
+    user = User(**external_data)  
+except ValidationError as e:
+    print(e.errors())
+
 print(user)
 # > User id=123 name='John Doe' signup_ts=datetime.datetime(2017, 6, 1, 12, 22) friends=[1, 2, 3]
 print(user.id)
