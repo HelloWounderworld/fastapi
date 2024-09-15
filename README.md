@@ -1,8 +1,22 @@
 # Understanding Fast API - Library in Python
 This project is to understand how to use FastAPI python library.
 
+To understand deeply about Fast API is recommended to understand about Pydantic, in first place, because the whole Fast API is based about Pydantic([5]).
+
+- https://docs.pydantic.dev/latest/
+
+- https://github.com/HelloWounderworld/pydantic.git
+
 ## Using Fast API in Python using virtual environment in Python
 First, we have to create a Python environment.
+
+    https://fastapi.tiangolo.com/pt/virtual-environments/
+
+If you prefer, with virtual environment. you can use uv to manage more easily versions os pythons that you want to use in a local directory
+
+    https://docs.astral.sh/uv/
+
+    https://github.com/astral-sh/uv
 
 1. Checking python version:
 
@@ -67,13 +81,37 @@ Tip: If you want to get out of the virtual environment just type
 3. [Fast API Github to instal library and run in a server][3]
 4. [Fast API CLI Documentation][4]
 5. [Good practice using Pydantic with Fast API][5]
+6. [Benchmark with Go language][6]
+7. [If you want to use async/await without using the syntaxes async and await][7]
+8. [Thread used before birth async and await. Unique form to handle asynchronous code][8]
+9. [Callback hell at the ancient treatment about asynchronous code][9]
+10. [How async and await works in background][10]
+11. [More about environment to define new variable temporary][11]
+12. [More about the environment variable][12]
+13. [uv, management tool to handle everything in python][13]
 
 [1]: https://fastapi.tiangolo.com/
 
-[2]: https://fastapi.tiangolo.com/python-types/#type-hints-in-fastapi
+[2]: https://fastapi.tiangolo.com/pt/virtual-environments/
 
 [3]: https://github.com/fastapi/fastapi?tab=readme-ov-file#example-upgrade
 
 [4]: https://fastapi.tiangolo.com/fastapi-cli/
 
 [5]: https://docs.pydantic.dev/latest/
+
+[6]: https://www.techempower.com/benchmarks/#section=data-r17&hw=ph&test=query&l=zijmkf-1
+
+[7]: https://docs.python.org/3/library/asyncio-task.html#coroutine
+
+[8]: https://www.gevent.org/
+
+[9]: http://callbackhell.com/
+
+[10]: https://fastapi.tiangolo.com/pt/async/#detalhes-muito-tecnicos
+
+[11]: https://12factor.net/config
+
+[12]: https://en.wikipedia.org/wiki/Environment_variable
+
+[13]: https://docs.astral.sh/uv/
