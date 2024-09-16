@@ -12,7 +12,7 @@ First, we have to create a Python environment.
 
     https://fastapi.tiangolo.com/pt/virtual-environments/
 
-If you prefer, with virtual environment. you can use uv to manage more easily versions os pythons that you want to use in a local directory
+If you prefer, with virtual environment, you can use uv to manage more easily versions os pythons that you want to use in a local directory
 
     https://docs.astral.sh/uv/
 
@@ -46,7 +46,19 @@ If you prefer, with virtual environment. you can use uv to manage more easily ve
 
 5. Now, you can install, using pip, fastapi package:
 
-        pip install "fastapi[standard]"
+    The installation forms below is to ensure that other packages is installed with fastapi, for example, uvicorn
+
+        pip install "fastapi[standard]" or pip install "fastapi[all]"
+
+    If you want to install fastapi in classic form, just runs
+
+        pip install fastapi
+    
+    but is recommended to install also uvicorn in following
+
+        pip install "uvicorn[standard]"
+
+    and the same form to other packages.
 
     If you have a requirements.txt, just copy it inside of virtual environment directory and run following command
 
@@ -60,7 +72,9 @@ If you prefer, with virtual environment. you can use uv to manage more easily ve
 
         pip freeze
 
-    After this you have to create a requirements.file and to make Ctrl+C and Ctrl+V about this file.
+    After this you have to create a requirements file and to make Ctrl+C and Ctrl+V about this file. Or, more fast
+
+        pip freeze > requirements.txt
 
 Now, you have an isolated virtual environment to start to develop your first fast api.
 
@@ -72,7 +86,17 @@ Tip: If you want to get out of the virtual environment just type
 
     deactivate
 
+## Using Fast API by uv
+
 ## Using Fast API in docker container
+
+## Text Editor:
+
+- VS Code, one of most popular. (https://code.visualstudio.com/docs/python/environments#_select-and-activate-an-environment)
+
+- I prefer to use Cursor, the most modern text Editor. Is like VSCode with ChatGPT. (https://www.cursor.com/s)
+
+- PyCharm, like Intellji, who knows or already programed by Java. (https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html)
 
 ## References
 
