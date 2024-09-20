@@ -46,6 +46,10 @@ If you prefer, with virtual environment, you can use uv to manage more easily ve
 
 5. Now, you can install, using pip, fastapi package:
 
+    Before to install packages
+
+        python -m pip install --upgrade pip
+
     The installation forms below is to ensure that other packages is installed with fastapi, for example, uvicorn
 
         pip install "fastapi[standard]" or pip install "fastapi[all]"
