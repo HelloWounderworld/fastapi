@@ -7,6 +7,10 @@ To understand deeply about Fast API is recommended to understand about Pydantic,
 
 - https://github.com/HelloWounderworld/pydantic.git
 
+## Where I stopped:
+
+    https://fastapi.tiangolo.com/pt/tutorial/path-params/#trabalhando-com-os-enumeration-do-python
+
 ## Using Fast API in Python using virtual environment in Python
 First, we have to create a Python environment.
 

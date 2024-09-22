@@ -34,7 +34,7 @@ so when you activate the uvicorn it will be
 
 The local url for this case is the same above.
 
-Tip: Shows the schema of the OpenAPI, the FastAPI shows whole details of its api
+Tip: Shows the schema of the OpenAPI, the FastAPI shows whole details of each api's defined in main.py.
 
     http://127.0.0.1:8000/openapi.json
 
@@ -42,10 +42,28 @@ Tip: Shows the schema of the OpenAPI, the FastAPI shows whole details of its api
 
 1. [Swagger UI][1]
 2. [Redoc UI][2]
-3. [Open API Specification][3]
-4. [The class FastAPI is inherited by Starlette][4]
+3. [Open API Specification - FastAPI uses the schema using OpenAPI default][3]
+4. [Data Model - Schema in OpenAPI][4]
+5. [Database Schema][5]
+6. [The class FastAPI is inherited by Starlette][4]
+7. [Endpoint vs Routes][7]
+8. [Route is equivalent to an endpoint in FastAPI][8]
+9. [Decorators][9]
 
 [1]: https://github.com/swagger-api/swagger-ui
+
 [2]: https://github.com/Redocly/redoc
+
 [3]: https://github.com/OAI/OpenAPI-Specification
-[4]: https://www.starlette.io/
+
+[4]: https://swagger.io/docs/specification/data-models/
+
+[5]: https://en.wikipedia.org/wiki/Database_schema
+
+[6]: https://www.starlette.io/
+
+[7]: https://danaepp.com/endpoints-vs-routes
+
+[8]: https://fastapi.tiangolo.com/pt/tutorial/first-steps/#rota
+
+[9]: https://www.geeksforgeeks.org/decorators-in-python/
