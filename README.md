@@ -104,7 +104,7 @@ Tip: If you want to get out of the virtual environment just type
 
 - I prefer to use Cursor, the most modern text Editor. Is like VSCode with ChatGPT. (https://www.cursor.com/s)
 
-- PyCharm, like Intellji, who knows or already programed by Java. (https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html)
+- PyCharm, like Intellji, who knows or already programed by Java. (https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) (https://github.com/koxudaxi/pydantic-pycharm-plugin/)
 
 ## References
 
