@@ -49,6 +49,9 @@ Tip: Shows the schema of the OpenAPI, the FastAPI shows whole details of each ap
 7. [Endpoint vs Routes][7]
 8. [Route is equivalent to an endpoint in FastAPI][8]
 9. [Decorators][9]
+10. [Regular Expressions][10]
+11. [Ellipsis "...", Python's special characters][11]
+12. [Kwargs][12]
 
 [1]: https://github.com/swagger-api/swagger-ui
 
@@ -67,3 +70,9 @@ Tip: Shows the schema of the OpenAPI, the FastAPI shows whole details of each ap
 [8]: https://fastapi.tiangolo.com/pt/tutorial/first-steps/#rota
 
 [9]: https://www.geeksforgeeks.org/decorators-in-python/
+
+[10]: https://www.w3schools.com/python/python_regex.asp
+
+[11]: https://docs.python.org/3/library/constants.html#Ellipsis
+
+[12]: https://github.com/HelloWounderworld/Review-Python/blob/main/Revisao-Udemy/secao04-Python-Intermediario-Funcoes-Dicionario-Modulos-Programcao-Funcional-e-mais/README.md#aula-32---empacotamento-e-desempacotamento-de-dicion%C3%A1rios--args-e-kwargs
