@@ -9,7 +9,7 @@ To understand deeply about Fast API is recommended to understand about Pydantic,
 
 ## Where I stopped:
 
-    https://fastapi.tiangolo.com/pt/tutorial/path-params-numeric-validations/#parametros-da-rota-e-validacoes-numericas
+    https://fastapi.tiangolo.com/pt/tutorial/body-multiple-params/
 
 ## Using Fast API in Python using virtual environment in Python
 First, we have to create a Python environment.
@@ -121,6 +121,7 @@ Tip: If you want to get out of the virtual environment just type
 11. [More about environment to define new variable temporary][11]
 12. [More about the environment variable][12]
 13. [uv, management tool to handle everything in python][13]
+14. [You can help contributing with something in this page, FastAPI.][14]
 
 [1]: https://fastapi.tiangolo.com/
 
@@ -147,3 +148,5 @@ Tip: If you want to get out of the virtual environment just type
 [12]: https://en.wikipedia.org/wiki/Environment_variable
 
 [13]: https://docs.astral.sh/uv/
+
+[14]: https://fastapi.tiangolo.com/contributing/#development-contributing

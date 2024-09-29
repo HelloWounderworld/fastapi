@@ -38,8 +38,10 @@ async def read_items_orders(
         results.update({"q": q})
     return results
 
-# ge - greater than
-# le - less than
+# ge - greater or equal than
+# gt - greater than
+# le - less or equal than
+# lt - less than
 @app.get("/itemsinterval/{item_id}")
 async def read_items_interval(
     *,
@@ -49,4 +51,18 @@ async def read_items_interval(
     results = {"item_id": item_id}
     if q:
         results.update({"q": q})
+    return results
+
+@app.get("/itemsfloat/{item_id}")
+async def read_items_float(
+    *,
+    item_id: int = Path(title="The ID of the item to get", ge=0, le=1000),
+    q: str,
+    size: float = Query(gt=0, lt=10.5),
+):
+    results = {"item_id": item_id}
+    if q:
+        results.update({"q": q})
+    if size:
+        results.update({"size": size})
     return results

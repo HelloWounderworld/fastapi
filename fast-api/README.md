@@ -52,6 +52,7 @@ Tip: Shows the schema of the OpenAPI, the FastAPI shows whole details of each ap
 10. [Regular Expressions][10]
 11. [Ellipsis "...", Python's special characters][11]
 12. [Kwargs][12]
+13. [Param class. Query and Path are subclass of the Praram class][13]
 
 [1]: https://github.com/swagger-api/swagger-ui
 
@@ -76,3 +77,5 @@ Tip: Shows the schema of the OpenAPI, the FastAPI shows whole details of each ap
 [11]: https://docs.python.org/3/library/constants.html#Ellipsis
 
 [12]: https://github.com/HelloWounderworld/Review-Python/blob/main/Revisao-Udemy/secao04-Python-Intermediario-Funcoes-Dicionario-Modulos-Programcao-Funcional-e-mais/README.md#aula-32---empacotamento-e-desempacotamento-de-dicion%C3%A1rios--args-e-kwargs
+
+[13]: https://param.holoviz.org/user_guide/How_Param_Works.html
